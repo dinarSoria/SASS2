@@ -1,0 +1,15 @@
+$text:(
+    color:$colornav,
+    f-size: 15px,
+    f-weight: bold,
+    spacing: 3px,
+    hover: border-bottom 2px solid $colortitulos,
+);
+
+div a{
+    color:map-get($text, color);
+    font-size:map-get($text, f-size);
+    font-weight:map-get($text, f-weight);
+    letter-spacing:map-get($text, spacing);
+    
+}

@@ -1,0 +1,121 @@
+#carouselExampleSlidesOnly{
+    .carousel-inner{
+        width: 100%;
+        height: auto;
+        .carousel-item {
+            width: 100%;
+            height: 100%;
+            .mainimg{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+}
+
+#carouselExampleSlidesOnly{
+    .carousel-inner{
+        div{
+            h1{
+                font-family: 'Bodoni Moda', serif;
+                text-align:center;
+                font-size: 8vw;
+                color: $colortitulos;
+                text-shadow: 8px 8px 8px $colorPrimary;
+                margin-bottom:15%; 
+            }
+         }
+     }
+}
+
+
+.row{
+    div{
+        .flex-shrink-0{
+            height: 70%;
+            margin-top:100px ;
+        }
+    }
+}
+.row{
+    div{
+        .table{
+            color: $colortable;
+            margin-top:10%;
+        }
+    }
+}
+
+.mb-3{
+    width: 30%!important;
+}
+
+@media (max-width:1573px) {
+    .row{
+        div{
+            .flex-shrink-0{
+                height: 30%;
+                margin-top:100px ;
+            }
+        }
+    }
+
+    .container-fluid{
+        row{
+            div{
+                .contenedor{
+                    display: flex;
+                    flex-direction: column;
+                }   
+            }
+        }
+    }
+    
+    .container-fluid{
+        row{
+            div{
+                .table-responsive{
+                    height: 50%;   
+                }
+                
+            }
+        }
+    }
+    
+    
+
+}
+
+@media (max-width:868px) {
+    .row{
+        div{
+            .flex-shrink-0{
+                height: 20%;
+                margin-top:100px ;
+            }
+        }
+    }
+
+    .container-fluid{
+        row{
+            div{
+                .contenedor{
+                    display: flex;
+                    flex-direction: column;
+                }   
+            }
+        }
+    }
+    
+    .container-fluid{
+        row{
+            div{
+                .table-responsive{
+                    height: 50%;   
+                }
+                
+            }
+        }
+    }
+}

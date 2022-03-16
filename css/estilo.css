@@ -1,0 +1,88 @@
+body {
+  background-color: black; }
+
+.navbar {
+  background-color: black; }
+  .navbar .logoEncabezado {
+    width: auto;
+    height: 70px;
+    padding: 3px; }
+  .navbar .logoEncabezado2 {
+    width: auto;
+    height: 50px;
+    padding: 3px; }
+
+#navbarNavAltMarkup a:hover {
+  border-bottom: 2px solid #f8b822; }
+
+#carouselExampleSlidesOnly .carousel-inner {
+  width: 100%;
+  height: auto; }
+  #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%; }
+    #carouselExampleSlidesOnly .carousel-inner .carousel-item .mainimg {
+      width: 100%;
+      height: 100%; }
+
+#carouselExampleSlidesOnly .carousel-inner div h1 {
+  font-family: 'Bodoni Moda', serif;
+  text-align: center;
+  font-size: 8vw;
+  color: #f8b822;
+  text-shadow: 8px 8px 8px black;
+  margin-bottom: 15%; }
+
+.row div .flex-shrink-0 {
+  height: 70%;
+  margin-top: 100px; }
+
+.row div .table {
+  color: white;
+  margin-top: 10%; }
+
+.mb-3 {
+  width: 30% !important; }
+
+@media (max-width: 1573px) {
+  .row div .flex-shrink-0 {
+    height: 30%;
+    margin-top: 100px; }
+  .container-fluid row div .contenedor {
+    display: flex;
+    flex-direction: column; }
+  .container-fluid row div .table-responsive {
+    height: 50%; } }
+
+@media (max-width: 868px) {
+  .row div .flex-shrink-0 {
+    height: 20%;
+    margin-top: 100px; }
+  .container-fluid row div .contenedor {
+    display: flex;
+    flex-direction: column; }
+  .container-fluid row div .table-responsive {
+    height: 50%; } }
+
+.row {
+  background-color: black; }
+  .row .logofoot {
+    width: auto;
+    height: 40px;
+    padding: 5px; }
+
+h6 {
+  color: #7e7e7e;
+  font-size: 14px; }
+
+@media (max-width: 767px) {
+  .row .logofoot {
+    width: auto;
+    height: 20px;
+    padding: 5px; } }
+
+div a {
+  color: #7e7e7e;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px; }

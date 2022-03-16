@@ -1,0 +1,24 @@
+.row{
+     background-color: $colorPrimary;
+    .logofoot{
+        width: auto;
+        height: 40px;
+        padding: 5px;
+    }
+
+}
+
+h6{
+    color: $colornav;
+    font-size: 14px;
+}
+
+@media (max-width:767px) {
+    .row{
+        .logofoot{
+            width: auto;
+            height: 20px;
+            padding: 5px;
+        }
+    }
+}
