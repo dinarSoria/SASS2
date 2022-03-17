@@ -2,6 +2,7 @@ body {
   background-color: black; }
 
 .navbar {
+  width: 100%;
   background-color: black; }
   .navbar .logoEncabezado {
     width: auto;
@@ -43,6 +44,9 @@ body {
 
 .mb-3 {
   width: 30% !important; }
+
+.container-fluid .imgbio {
+  margin-top: 10%; }
 
 @media (max-width: 1573px) {
   .row div .flex-shrink-0 {
@@ -86,3 +90,46 @@ div a {
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 3px; }
+
+div p {
+  color: #7e7e7e;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 7%; }
+
+.container-fluid .row p {
+  color: #7e7e7e;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 7%; }
+
+div form div .text {
+  color: #7e7e7e;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 7%;
+  text-align: center; }
+
+div img {
+  height: auto;
+  width: 60%; }
+
+div h2 {
+  color: #f8b822;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  margin-top: 10%; }
+
+div .newsletter {
+  color: #f8b822;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-top: 5%; }
+
+.boton, .submit {
+  font-size: 17px;
+  color: #f8b822;
+  background-color: #7e7e7e;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-shadow: 1px black; }

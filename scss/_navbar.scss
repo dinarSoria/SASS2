@@ -1,8 +1,10 @@
+
 body{
     background-color:$colorPrimary ;
 }
 
 .navbar{
+    width: 100%;
     background-color: $colorPrimary;
     .logoEncabezado{
             width:auto;

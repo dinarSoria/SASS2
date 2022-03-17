@@ -13,3 +13,35 @@ div a{
     letter-spacing:map-get($text, spacing);
     
 }
+
+$textbio:(
+    color:$colornav,
+    f-size:18px,   
+    spacing: 3px,
+    margin:7%,
+    align:center,
+    
+    
+);
+
+div p{
+    color:map-get($textbio, color);
+    font-size:map-get($textbio, f-size);
+    letter-spacing:map-get($textbio, spacing);
+    margin-top:map-get($textbio, margin);
+}
+
+.container-fluid .row p{
+    color:map-get($textbio, color);
+    font-size:map-get($textbio, f-size);
+    letter-spacing:map-get($textbio, spacing);
+    margin-top:map-get($textbio, margin);
+}
+
+div form div .text {
+    color:map-get($textbio, color);
+    font-size:map-get($textbio, f-size);
+    letter-spacing:map-get($textbio, spacing);
+    margin-top:map-get($textbio, margin);
+    text-align:map-get($textbio, align); ;
+}

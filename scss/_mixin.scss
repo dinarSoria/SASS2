@@ -1,0 +1,32 @@
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+div img {
+    @include sizes(60%,auto)
+}
+
+@mixin titulo($color, $font-size, $letter-spacing, $margin-top){
+    color: $color;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    margin-top: $margin-top;
+}
+
+div h2 {
+    @include titulo($colortitulos, 1.2rem, 3px, 10%);
+
+}
+
+div .newsletter{
+    @include titulo($colortitulos, 30px, 3px, 5%)
+}
+
+@mixin media($breakpoints) {
+    @media screen and (min-width:map-get($breakpoints, $breakpoints)) {
+        @content;
+        
+    }
+    
+}
